@@ -1,10 +1,27 @@
 {
   "expo": {
-    "name": "recipes-app",
-    "slug": "recipes-app",
+    "name": "Tunu",
+    "slug": "Tunu",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": ["**/*"],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E7E5AC"
+    },
+    "icon": "./assets/icon.png",
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#E7E5AC"
+      },
+      "package": "com.woad.Tunu"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2fcc532f-32ca-42c2-8199-d52f34413c91"
+      }
+    }
   }
 }
